@@ -1,0 +1,11 @@
+{
+  "scripts": {
+      "make-agda": "agda --js simplify.agda --compile-dir=generated/agda",
+      "make": "npm run make-agda && webpack"
+  },
+  "devDependencies": {
+    "rollup": "^2.70.0",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
